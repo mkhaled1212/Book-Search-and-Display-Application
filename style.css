@@ -1,0 +1,126 @@
+*{
+ background-color:#091F34;
+ background-size: 100%;
+  margin: 0;
+ padding: 0;
+ margin-bottom: 0;
+}
+body{
+  background-color: #284145;
+  background-color: 100%;
+}
+.search {
+  display: inline-block;
+  position: relative;
+}
+
+.search input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  color:#091F34;
+ background-color: snow;
+}
+
+.search button[type="submit"] {
+  background-color: #4e99e9;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  position: relative;
+  top: 0;
+  right: 0px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  transition: .9s ease;
+  text-align: center;
+  box-shadow: none;
+  border-radius: 0%;
+  margin-top: 10px;
+}
+[type="text"]{
+  display: block;
+  text-align: center;
+  color:snow;
+  font-weight: bold;
+  font-family: Arial;
+}
+[type="text"]::placeholder{
+ color:grey;
+ font-weight: bold;
+ font-family: Arail;
+ text-align: left;
+}
+
+.search button[type="submit"]:hover {
+  
+  background-color: transparent;
+  }
+    .search button[type="submit"]:hover .text {
+    color: #181717;
+  }
+  .search button svg path{
+    transition: 400ms;
+
+  }
+  .search button .text{
+    color: white;
+  font-weight: 700;
+  font-size: 1em;
+  transition: 400ms;
+
+  
+  }
+  .search button[type="submit"]:hover svg path {
+    fill: #181717;
+  }
+
+.search{
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  
+}
+.card{
+ background-color: #284145 !important;
+  text-align: center;
+  color:#091F34;
+  padding: 4.5%;
+ 
+  
+}
+.card h1{
+  font-weight: bold;
+  color: #fff;
+
+}
+.card p1{
+  font-family: Arial;
+  font-size: large;
+  font-weight: bold;
+  display: inline-block;
+  color: #fff;
+}
+.card img{
+  margin-top: 5%;
+  width: 17%;
+  height: 15%;
+  color: #fff;
+}
+.card p2{
+  font-weight: bold;
+  font-family: Arial;
+  font-size: x-large;
+  color: 00ffef;
+  display: inline-block;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+.download-link{
+  border: #284145 1px solid;
+  
+}
