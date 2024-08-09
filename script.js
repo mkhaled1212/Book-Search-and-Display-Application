@@ -28,6 +28,7 @@ async function searchBook() {
 
     // Display book info in the card format
     displayBookInfo(book);
+     searchContainer.style.display = 'none';
   } catch (error) {
     alert(error.message);
   }
