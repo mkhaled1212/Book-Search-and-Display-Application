@@ -1,5 +1,6 @@
 async function searchBook() {
   const bookName = document.getElementById("bookNameInput").value.trim();
+    const searchContainer = document.getElementById('search'); // Ensure this ID matches your HTML
 
   // Check if the input is empty
   if (bookName === "") {
